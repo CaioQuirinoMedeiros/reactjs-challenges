@@ -1,0 +1,35 @@
+.checkbox {
+  border-radius: 100%;
+  width: 1.2rem;
+  height: 1.2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkboxUnchecked {
+  border: 1px solid var(--blue);
+  background-color: transparent;
+}
+
+.checkboxUnchecked:hover {
+  border: 1px solid var(--blue-dark);
+  background-color: var(--blue-dark20);
+}
+
+.checkedCheckbox {
+  background-color: var(--purple-dark);
+  border: 1px solid var(--purple-dark);
+}
+
+.checkedCheckbox:hover {
+  background-color: var(--purple);
+  border: 1px solid var(--purple);
+}
+
+.checkbox > svg {
+  width: 0.85rem;
+  height: 0.85rem;
+  color: var(--white);
+}
