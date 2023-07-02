@@ -4,7 +4,7 @@ export default {
   theme: {
     fontFamily: {
       Roboto: ['Roboto', 'sans-serif'],
-      Balooo: ['Baloo+2', 'sans-serif']
+      Signika: ["Signika", 'sans-serif']
     },
     extend: {
       colors: {

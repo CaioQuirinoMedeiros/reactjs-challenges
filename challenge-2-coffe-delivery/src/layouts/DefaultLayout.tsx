@@ -5,7 +5,9 @@ export function DefaultLayout() {
   return (
     <div>
       <Header />
-      <Outlet />
+      <div className='max-w-7xl mx-auto px-6'>
+        <Outlet />
+      </div>
     </div>
   )
 }
