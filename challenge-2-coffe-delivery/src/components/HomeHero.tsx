@@ -28,7 +28,7 @@ export function HomeHero() {
   return (
     <section className='flex flex-row items-center gap-14 '>
       <div className='flex flex-col'>
-        <h1 className='title-xl mb-4'>
+        <h1 className='title-xl mb-4 text-base-title'>
           Encontre o café perfeito para qualquer hora do dia
         </h1>
         <p className='text-l font-normal'>

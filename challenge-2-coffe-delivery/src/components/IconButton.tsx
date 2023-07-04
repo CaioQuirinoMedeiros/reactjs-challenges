@@ -7,7 +7,7 @@ interface IconButtonProps
 }
 
 export function IconButton(props: IconButtonProps) {
-  const { icon: Icon, children, ...rest } = props
+  const { icon: Icon, ...rest } = props
 
   return (
     <button

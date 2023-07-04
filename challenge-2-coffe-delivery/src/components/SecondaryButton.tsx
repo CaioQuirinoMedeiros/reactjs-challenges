@@ -1,6 +1,5 @@
 import * as React from 'react'
 import { IconProps } from 'phosphor-react'
-import classNames from 'classnames'
 
 interface SecondaryButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement> {
@@ -12,10 +11,10 @@ export function SecondaryButton(props: SecondaryButtonProps) {
 
   return (
     <button
-      className={`bg-base-button h-8 flex flex-row gap-1 items-center justify-center p-1 rounded-md text-base-text min-w-[8rem] text-xs leading-[0] font-medium font-Roboto hover:bg-base-hover transition ${className}`}
+      className={`bg-base-button flex flex-row gap-1 items-center justify-center py-1 px-2 rounded-md text-base-text text-xs leading-[0] font-medium font-Roboto hover:bg-base-hover transition ${className}`}
       {...rest}
     >
-      {!!Icon && <Icon className='text-base' />}
+      {!!Icon && <Icon className='text-base text-purple' />}
       {children}
     </button>
   )
